@@ -1,15 +1,16 @@
 class Computer:
-  def __init__(self):
-    self.cpu = self.CPU()
-    self.ram = self.RAM()
+    def __init__(self):
+        self.cpu = self.CPU()
+        self.ram = self.RAM()
 
-  class CPU:
+class CPU:
     def process(self):
-      print("Processing data...")
+        print("Processing data...")
 
-  class RAM:
+
+class RAM:
     def store(self):
-      print("Storing data...")
+        print("Storing data...")
 
 computer = Computer()
 computer.cpu.process()
